@@ -4,18 +4,10 @@
 
 ### A hands-on, example-driven guide to writing real-world SQL in MySQL
 
-**🎥 Learn it step-by-step on YouTube → [Watch the Full MySQL Playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)**
-
-[![Watch on YouTube](https://img.shields.io/badge/▶%20Watch%20the%20Course-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
-
----
-
-> ### ⭐ Enjoying this guide?
-> **[Subscribe on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9)** for the complete video walkthrough of every topic below, and **give this repo a ⭐** so more learners can find it. New lessons drop regularly — hit the bell so you never miss one.
 
 ---
 
@@ -28,8 +20,7 @@ Whether you're preparing for an interview, leveling up at work, or just starting
 ## 🚀 Getting Started
 
 1. **Set up the sample database** — start with [Part 0: Sample Database](docs/00-sample-database.md) and run the schema + seed data in your MySQL instance.
-2. **Follow along with the video** — each guide maps to a lesson in the [YouTube playlist](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9).
-3. **Practice** — every query in these docs runs against the sample database, so you can experiment as you learn.
+2. **Practice** — every query in these docs runs against the sample database, so you can experiment as you learn.
 
 ```bash
 # Clone the repo
@@ -57,16 +48,6 @@ cd Mysql-course
 | 11 | `UNION` & `UNION ALL` (stacking result sets) | [UNION & UNION ALL](docs/11-union-and-union-all.md) |
 | 12 | Recursive CTEs (hierarchies & sequence generation) | [Recursive CTE](docs/12-recursive-cte.md) |
 
-## 🧩 Interview Practice
-
-Real-world SQL problems with datasets, expected output, and fully explained solutions — great for interview prep and self-testing.
-
-| Set | Focus | Link |
-|-----|-------|------|
-| 1 | Anti-joins, delivery times, running balances, distinct users, cancellation rates | [Problem Set 1](interview-questions/problem-set-01.md) |
-| 2 | Self-joins & interval overlaps, top-N per group, `HAVING`, `LEAD()`, conditional aggregation | [Problem Set 2](interview-questions/problem-set-02.md) |
-| 3 | Screening-round classics: Nth-highest salary, find & delete duplicates, manager/dept comparisons, month-over-month growth | [Problem Set 3](interview-questions/problem-set-03.md) |
-| 4 | Multi-table joins, median (overall & per-group), gaps-and-islands streaks (2 methods), self-`UNION` win-percentage | [Problem Set 4](interview-questions/problem-set-04.md) |
 
 ## 🗂️ Repository Structure
 
@@ -86,11 +67,6 @@ mysql/
 │   ├── 10-triggers.md
 │   ├── 11-union-and-union-all.md
 │   └── 12-recursive-cte.md
-├── interview-questions/  # Practice problem sets with solutions
-│   ├── problem-set-01.md
-│   ├── problem-set-02.md
-│   ├── problem-set-03.md
-│   └── problem-set-04.md
 ├── assets/               # Diagrams & images
 │   └── joins.png
 ├── LICENSE
@@ -102,19 +78,3 @@ mysql/
 - **Beginners** learning SQL for the first time
 - **Developers & analysts** brushing up on intermediate/advanced querying
 - **Interview candidates** revising joins, subqueries, window functions, and CTEs
-
-## 🤝 Contributing
-
-Found a typo, a bug in a query, or have a clearer example? Contributions are welcome — open an issue or submit a pull request.
-
-## 📜 License
-
-Released under the [MIT License](LICENSE). Free to use, share, and learn from — attribution appreciated.
-
----
-
-<div align="center">
-
-**If this helped you, please ⭐ the repo and [subscribe on YouTube](https://www.youtube.com/playlist?list=PLkFShEMrLia1jn4NLHAEI8gX3lIWW6kH9). It genuinely helps! 🙌**
-
-</div>
