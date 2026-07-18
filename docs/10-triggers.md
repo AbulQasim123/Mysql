@@ -183,7 +183,7 @@ DELIMITER ;
 ```sql
 -- This update doesn't change the salary at all...
 UPDATE employees
-SET employee_name = 'Vivek Pandey'
+SET employee_name = 'Abul Qasim'
 WHERE employee_id = 45;
 
 SELECT * FROM salary_history;   -- ...yet a row is still logged (old = new, 0% increment)

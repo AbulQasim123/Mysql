@@ -24,8 +24,8 @@ Whether you're preparing for an interview, leveling up at work, or just starting
 
 ```bash
 # Clone the repo
-git clone https://github.com/vivekpandey76/Mysql-course.git
-cd Mysql-course
+git clone https://github.com/AbulQasim123/Mysql.git
+cd Mysql
 
 # Load the sample database into MySQL, then start with docs/00-sample-database.md
 ```
